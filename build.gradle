@@ -16,7 +16,7 @@ task fatJar(type: Jar) {
     manifest {
         attributes 'Implementation-Title': 'Migrator',
                 'Implementation-Version': version,
-                'Main-Class': 'Migrator'
+                'Main-Class': 'pro.amberovsky.stash2github.Migrator'
     }
 
     baseName = project.name + '-all'
